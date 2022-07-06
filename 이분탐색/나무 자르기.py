@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open('input.txt')
+sys.stdin=open('D:/Baekjoon/input.txt')
 N,M=map(int,sys.stdin.readline().split())
 A=list(map(int,sys.stdin.readline().split()))
 A.sort()

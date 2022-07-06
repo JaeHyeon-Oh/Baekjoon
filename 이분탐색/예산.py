@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open('input.txt')
+sys.stdin=open('../input.txt')
 N=sys.stdin.readline()
 A=list(map(int,sys.stdin.readline().split()))
 M=sys.stdin.readline()
