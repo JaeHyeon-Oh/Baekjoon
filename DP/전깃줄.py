@@ -7,5 +7,6 @@ d=[1]*101
 for i in range(n):
     for j in range(i):
         if a[i][1]>a[j][1]:
+            print(i , j , a[i][1], a[j][1])
             d[i]=max(d[i],d[j]+1)
 print(n-max(d))
