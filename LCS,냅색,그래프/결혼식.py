@@ -15,7 +15,6 @@ for _ in range(m):
 
 def bfs(n):
     q.append(n)
-    visited[n]=1
 
     while q:
         x=q.popleft()
