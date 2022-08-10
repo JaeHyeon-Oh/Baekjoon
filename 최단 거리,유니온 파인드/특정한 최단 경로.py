@@ -26,10 +26,6 @@ def dijk(start,e):
                 heapq.heappush(heap,(cost,no))
     return dist[e]
 
-for i in g[v1]:
-    if i[0]==v2:
-        flag=1
-        break;
 
 total=min(dijk(1,v1)+dijk(v1,v2)+dijk(v2,n), dijk(1,v2)+dijk(v2,v1)+dijk(v1,n))
 if total >= inf :
